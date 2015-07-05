@@ -1,0 +1,13 @@
+#ifndef DETECTOR_CPP
+#define DETECTOR_CPP
+
+#include "detector_n.cpp"
+#include "detector_r.cpp"
+
+//R_int = 0.1 m corresponds to theta_min = 1 mrad
+void detector(Double_t R_int = 0.1, const char* opt = "") {
+  detector_n(R_int, opt);
+  detector_r(R_int, opt);
+}
+
+#endif

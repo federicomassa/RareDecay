@@ -1,0 +1,83 @@
+#include "FGenPhaseSpace.h"
+#include <TH1D.h>
+#include <TLorentzVector.h>
+#include <TMath.h>
+#include <TLegend.h>
+#include <TCanvas.h>
+#include <TRandom3.h>
+
+Double_t sigma = 1; //Momentum smeering, GeV
+
+using namespace TMath;
+
+void missing() {
+
+  TRandom3 rndgen;
+
+  FGenPhaseSpace event_rare;
+  FGenPhaseSpace event_normal;
+  Double_t K_Mass = 0.493667; //GeV
+  Double_t Pi_Mass = 0.13957018; //GeV
+  Double_t Pi0_Mass = 0.1349766; //GeV
+  Double_t K_E = 60; //GeV
+  TLorentzVector beam(0.0,0.0,Sqrt(K_E*K_E - K_Mass*K_Mass), K_E);
+  TLorentzVector* pPi_normal;
+  TLorentzVector* pPi_rare;
+  Double_t masses_rare[3] = {Pi_Mass, 0.0,0.0}; // k+ -> pi+ nu nu
+  Double_t masses_normal[2] = {Pi_Mass, Pi0_Mass}; // k+ -> pi+ pi0
+  Int_t imax = 1E6;
+  Double_t missing_mass_normal;
+  Double_t missing_mass_rare;
+ 
+  Double_t P_rare_m, P_normal_m;
+ 
+  TH1D* missing_normal_hist = new TH1D("missing_normal_hist", "Missing Mass Histogram", 500, 0.0, 0.36);
+  TH1D* missing_rare_hist = new TH1D("missing_rare_hist", "Missing Mass Histogram", 500, 0.0, 0.36);
+
+  event_normal.Initialize(beam, 2, masses_normal);
+  event_rare.Initialize(beam, 3, masses_rare);
+
+  for (Int_t i = 0; i < imax; i++) {
+
+    event_normal.GenerateEvent();
+    event_rare.GenerateEvent();
+    pPi_normal = event_normal.GetDecay(0);
+    pPi_rare = event_rare.GetDecay(0);
+
+    P_normal_m = Abs(rndgen.Gaus(pPi_normal->P(), sigma));
+
+    (*pPi_normal)[0] = P_normal_m*Sin(pPi_normal->Theta())*Cos(pPi_normal->Phi());
+    (*pPi_normal)[1] = P_normal_m*Sin(pPi_normal->Theta())*Sin(pPi_normal->Phi());
+    (*pPi_normal)[2] = P_normal_m*pPi_normal->CosTheta();
+
+    (*pPi_normal)[3] = Sqrt(Sq(P_normal_m) + Sq(Pi_Mass));
+    
+    P_rare_m = Abs(rndgen.Gaus(pPi_rare->P(), sigma));
+
+    (*pPi_rare)[0] = P_rare_m*Sin(pPi_rare->Theta())*Cos(pPi_rare->Phi());
+    (*pPi_rare)[1] = P_rare_m*Sin(pPi_rare->Theta())*Sin(pPi_rare->Phi());
+    (*pPi_rare)[2] = P_rare_m*pPi_rare->CosTheta();
+
+    (*pPi_rare)[3] = Sqrt(Sq(P_rare_m) + Sq(Pi_Mass));
+
+    missing_mass_normal = Sqrt(K_Mass*K_Mass + Pi_Mass*Pi_Mass - 2*(beam*(*pPi_normal)));
+    missing_mass_rare = Sqrt(K_Mass*K_Mass + Pi_Mass*Pi_Mass - 2*(beam*(*pPi_rare)));
+
+    missing_normal_hist->Fill(missing_mass_normal);
+    missing_rare_hist->Fill(missing_mass_rare);
+  }
+  
+  
+  TCanvas* c1 = new TCanvas("c1", "Normal");
+  missing_normal_hist->SetLineColor(kRed);
+  missing_normal_hist->Draw();
+  // TCanvas* c2 = new TCanvas("c2", "Rare");
+  missing_rare_hist->SetLineColor(kBlue);
+  missing_rare_hist->Draw("same");
+
+  TLegend* leg = new TLegend;
+  leg->AddEntry(missing_normal_hist, "pi-pi", "lpe");
+  leg->AddEntry(missing_rare_hist, "pi-nu-nu", "lpe");
+  leg->Draw("same");
+
+}
