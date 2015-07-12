@@ -1,6 +1,7 @@
 #ifndef DETECTOR_R_CPP
 #define DETECTOR_R_CPP
 
+#include "generation.cpp"
 #include "B_event_approx.h"
 #include <TFile.h>
 #include <TNtupleD.h>
@@ -8,26 +9,16 @@
 #include <TMath.h>
 #include <iostream>
 
-#ifndef GENERATION
-#define GENERATION
-Double_t Pi_Mass = 0.13957018; //Pi+ mass [GeV]
-Double_t K_Mass = 0.493667; //   K+ mass  [GeV]
-Double_t Pi0_Mass = 0.1349766; //Pi0 mass [GeV]
-Double_t K_E = 60;        //K mean energy [GeV]
-Double_t K_sigma = 0.000001;    //K energy sigma [GeV]
-UInt_t imax = 1E5;
-Double_t tau = 1.238E-8;       //K rest lifetime [s]
-#endif
-
 #ifndef DETECTOR
 #define DETECTOR
 Double_t z1 = 100;
 Double_t z2 = 110;
-Double_t z3 = 120;
-Double_t z4 = 130;
+Double_t z3 = 115;
+Double_t z4 = 125;
 Double_t sigma_px = 0.001; // Pixel resolution
 Double_t sigma_E = 0.2; // sigma_E/E = 20%/sqrt(E/GeV)
 Double_t p_kick = 0.2;
+Double_t tau_pi = 2.6E-8;
 #endif
 
 using namespace TMath;
@@ -59,6 +50,7 @@ void detector_r(Double_t R_int = 0.1, const char* opt = "") {
   Double_t* P3 = new Double_t[3];
   Double_t* P4 = new Double_t[3];
   Double_t E_r;
+  Double_t pi_z; //pi+ decay check
 
   B_event_approx* event;
 
@@ -77,15 +69,17 @@ void detector_r(Double_t R_int = 0.1, const char* opt = "") {
     theta_r_t = args_in[3];
     phi_r_t = args_in[4];
 
+    // Pi+ could decay before reaching last detector
+    if (rndgen.Exp(p_r_t/Pi_Mass*299792458*tau_pi) < z4 - z_r_t) continue;
+    
+
     event = new B_event_approx;
 
-    if (z_r_t > z1) {delete event; continue;}
+    if (z_r_t > z1) {delete event; event = NULL;continue;}
 
     P1_t[0] = (z1 - z_r_t)*Tan(theta_r_t)*Cos(phi_r_t);
     P1_t[1] = (z1 - z_r_t)*Tan(theta_r_t)*Sin(phi_r_t);
     P1_t[2] = z1;
-
-    if (Power(P1_t[0],2) + Power(P1_t[1],2) < Power(R_int,2)) {delete event; continue;}
 
     P2_t[0] = (z2 - z_r_t)*Tan(theta_r_t)*Cos(phi_r_t);
     P2_t[1] = (z2 - z_r_t)*Tan(theta_r_t)*Sin(phi_r_t);
@@ -94,6 +88,12 @@ void detector_r(Double_t R_int = 0.1, const char* opt = "") {
     event->SetB_event_approx(P1_t, P2_t, 1.0, p_r_t);
     event->GetP3(P3_t);
     event->GetP4(P4_t);
+
+    if (Power(P1_t[0],2) + Power(P1_t[1],2) < Power(R_int,2) ||
+	Power(P2_t[0],2) + Power(P2_t[1],2) < Power(R_int,2) ||
+	Power(P3_t[0],2) + Power(P3_t[1],2) < Power(R_int,2) ||
+	Power(P4_t[0],2) + Power(P4_t[1],2) < Power(R_int,2))
+      {delete event; event = NULL; continue;}
 
     // Detector response
     P1[0] = rndgen.Gaus(P1_t[0], sigma_px);
@@ -137,27 +137,20 @@ void detector_r(Double_t R_int = 0.1, const char* opt = "") {
     nt_r_out->Fill(args_out);
 
     delete event;
+    event = NULL;
 
   }
   
   nt_r_out->Write();
+  root_out->Write(0, TObject::kOverwrite);
   root_in->Close();
-  root_out->Close();
+  root_out->Close();  
 
-  
   delete root_in;
+  root_in = NULL;
   delete root_out;
-  delete[] args_in;
-  delete[] args_out;
-  delete[] P1_t;
-  delete[] P2_t;
-  delete[] P3_t;
-  delete[] P4_t;
-  delete[] P1;
-  delete[] P2;
-  delete[] P3;
-  delete[] P4;
-  
+  root_out = NULL;
+
 
 }
 

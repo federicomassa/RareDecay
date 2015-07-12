@@ -58,9 +58,51 @@
 ./reconstruction_n_cpp.so: /usr/include/c++/4.8/memory
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMath.h
 ./reconstruction_n_cpp.so: /usr/include/c++/4.8/iostream
-./reconstruction_n_cpp.so: /usr/include/c++/4.8/sstream constr_rare.h
-./reconstruction_n_cpp.so: detector.cpp detector_n.cpp B_event_approx.h
-./reconstruction_n_cpp.so: B_event_approx.cpp line.h line.cpp
+./reconstruction_n_cpp.so: /usr/include/c++/4.8/sstream generation.cpp
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TRandom3.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TRandom.h
+./reconstruction_n_cpp.so: /home/federico/Scrivania/Universita/MonteCarlo/RareDecay/./FGenPhaseSpace.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TGenPhaseSpace.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TLorentzVector.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVector3.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVector2.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMatrix.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMatrixF.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMatrixFfwd.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMatrixFUtils.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMatrixFUtilsfwd.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TRotation.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TNtupleD.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TTree.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TBranch.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TObjArray.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TSeqCollection.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TCollection.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TIterator.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDataType.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDictionary.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/ESTLType.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TArrayD.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TArray.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TArrayI.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TClass.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TObjString.h
+./reconstruction_n_cpp.so: /usr/include/c++/4.8/map /usr/include/c++/4.8/set
+./reconstruction_n_cpp.so: /usr/include/c++/4.8/unordered_set
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/ThreadLocalStorage.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVirtualTreePlayer.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TFile.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDirectoryFile.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDirectory.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TList.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDatime.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TUUID.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMap.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/THashTable.h
+./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TUrl.h
+./reconstruction_n_cpp.so: constr_rare.h detector.cpp detector_n.cpp
+./reconstruction_n_cpp.so: B_event_approx.h B_event_approx.cpp line.h
+./reconstruction_n_cpp.so: line.cpp
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TGraph2D.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVirtualHistPainter.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TCanvas.h
@@ -73,45 +115,15 @@
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/GuiTypes.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/Buttons.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TQObject.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TList.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TSeqCollection.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TCollection.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TIterator.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TQObjectEmitVA.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TQConnection.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/Varargs.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TInterpreter.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDictionary.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/ESTLType.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVirtualMutex.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TAttBBox2D.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TPoint.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TAttCanvas.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TCanvasImp.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TFile.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDirectoryFile.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDirectory.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDatime.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TUUID.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMap.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/THashTable.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TUrl.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TNtupleD.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TTree.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TBranch.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TObjArray.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDataType.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TArrayD.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TArray.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TArrayI.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TClass.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TObjString.h
-./reconstruction_n_cpp.so: /usr/include/c++/4.8/map /usr/include/c++/4.8/set
-./reconstruction_n_cpp.so: /usr/include/c++/4.8/unordered_set
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/ThreadLocalStorage.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVirtualTreePlayer.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TRandom3.h
-./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TRandom.h
 ./reconstruction_n_cpp.so: detector_r.cpp InitializeZP.h
 ./reconstruction_n_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/RVersion.h /home/federico/Scaricati/root/root-6.04.00/include/RConfig.h /home/federico/Scaricati/root/root-6.04.00/include/TClass.h /home/federico/Scaricati/root/root-6.04.00/include/TDictAttributeMap.h /home/federico/Scaricati/root/root-6.04.00/include/TInterpreter.h /home/federico/Scaricati/root/root-6.04.00/include/TROOT.h /home/federico/Scaricati/root/root-6.04.00/include/TBuffer.h /home/federico/Scaricati/root/root-6.04.00/include/TMemberInspector.h /home/federico/Scaricati/root/root-6.04.00/include/TError.h /home/federico/Scaricati/root/root-6.04.00/include/RtypesImp.h /home/federico/Scaricati/root/root-6.04.00/include/TIsAProxy.h /home/federico/Scaricati/root/root-6.04.00/include/TFileMergeInfo.h /home/federico/Scaricati/root/root-6.04.00/include/TCollectionProxyInfo.h
 reconstruction_n_cpp__ROOTBUILDVERSION= 6.04/00

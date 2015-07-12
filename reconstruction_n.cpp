@@ -2,6 +2,7 @@
 #define RECONSTRUCTION_N_CPP
 
 #include "../Spettrometro/IterKinFitP.h"
+#include "generation.cpp"
 #include "constr_rare.h"
 #include "InitializeZP.h"
 #include <TNtupleD.h>
@@ -13,7 +14,7 @@ using namespace TMath;
 
 // Missing mass cut: W > Wc.. Wc = -100 is like -inf
 // for opt see generation.cpp
-Double_t reconstruction_n(Double_t Wc = -100, const char* opt = "") {
+void reconstruction_n(Double_t Wc = -100, const char* opt = "") {
 
   TFile* root_in = new TFile("detector_n.root");
   TFile* root_out = new TFile("reconstruction_n.root","recreate");
@@ -32,7 +33,7 @@ Double_t reconstruction_n(Double_t Wc = -100, const char* opt = "") {
 
   Double_t* err = new Double_t[9];
 
-  Double_t acc;
+  // Double_t acc;
   // err[8] = sigma_E*sqrt(E) depends on the event, and it is esteemed, not exact
   for (Int_t i = 0; i < 8; i++) {
     err[i] = sigma_px;
@@ -66,38 +67,34 @@ Double_t reconstruction_n(Double_t Wc = -100, const char* opt = "") {
     for (Int_t j = 23; j < 25; j++) args_out[j] = final_p[j-23];
 
     //Missing mass, assuming the decay is K+ -> pi+ nu nu and exact K energy
-    args_out[25] = Power(K_Mass,2) + Power(Pi_Mass,2) - 2*K_E*final_m[8] + 2*Sqrt(K_E*K_E-K_Mass*K_Mass)*final_p[1]*(z2-z1)/Sqrt(Power(final_m[2]-final_m[0],2)+Power(final_m[3]-final_m[1],2)+Power(z2-z1,2));
+    args_out[25] = Power(K_Mass,2) + Power(Pi_Mass,2) - 2*args_in[0]*final_m[8] + 2*Sqrt(args_in[0]*args_in[0]-K_Mass*K_Mass)*final_p[1]*(z2-z1)/Sqrt(Power(final_m[2]-final_m[0],2)+Power(final_m[3]-final_m[1],2)+Power(z2-z1,2));
     
     //Missing mass cut
-    if (args_out[25] < Wc) {delete iter; continue;}
+    if (args_out[25] < Wc) {delete iter; iter = NULL; continue;}
 
     args_out[26] = iter->GetChi2();
 
     nt_n_reco->Fill(args_out);
     
     delete iter;
+    iter = NULL;
 
   }
 
   if (strcmp(opt, "q") != 0)   
-    std::cout << "Acceptance: " << Double_t(nt_n_reco->GetEntries())/Double_t(100000) << std::endl;
+    std::cout << "Acceptance: " << Double_t(nt_n_reco->GetEntries())/Double_t(imax) << std::endl;
 
-  acc = Double_t(nt_n_reco->GetEntries())/Double_t(100000);
+  // acc = Double_t(nt_n_reco->GetEntries())/Double_t(imax);
+
   nt_n_reco->Write();
+  root_out->Write(0, TObject::kOverwrite);
   root_in->Close();
   root_out->Close();
 
-  delete[] args_in;
-  delete[] args_out;
-  delete[] init_m;
-  delete[] init_p;
-  delete[] final_m;
-  delete[] final_p;
-  delete[] err;
   delete root_in;
+  root_in = NULL;
   delete root_out;
-
-  return acc;
+  root_out = NULL;
   
 }
 

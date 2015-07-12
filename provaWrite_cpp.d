@@ -1,0 +1,59 @@
+
+# DO NOT DELETE
+
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TGraphErrors.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TGraph.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TNamed.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TObject.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/Rtypes.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/RtypesCore.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/RConfig.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/RVersion.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/DllImport.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/Rtypeinfo.h
+./provaWrite_cpp.so: /usr/include/c++/4.8/typeinfo
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/snprintf.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/strlcpy.h
+./provaWrite_cpp.so: /usr/include/c++/4.8/atomic
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TGenericClassInfo.h
+./provaWrite_cpp.so: /usr/include/c++/4.8/vector
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TSchemaHelper.h
+./provaWrite_cpp.so: /usr/include/c++/4.8/string
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TStorage.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVersionCheck.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/Riosfwd.h
+./provaWrite_cpp.so: /usr/include/c++/4.8/iosfwd
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TBuffer.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TString.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMathBase.h
+./provaWrite_cpp.so: /usr/include/c++/4.8/cstdlib /usr/include/c++/4.8/cmath
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/RStringView.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/RConfigure.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/RWrap_libcpp_string_view.h
+./provaWrite_cpp.so: /usr/include/c++/4.8/algorithm
+./provaWrite_cpp.so: /usr/include/c++/4.8/iterator
+./provaWrite_cpp.so: /usr/include/c++/4.8/ostream
+./provaWrite_cpp.so: /usr/include/c++/4.8/iomanip
+./provaWrite_cpp.so: /usr/include/c++/4.8/stdexcept
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/libcpp_string_view.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TAttLine.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TAttFill.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TAttMarker.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVectorFfwd.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TVectorDfwd.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TFitResultPtr.h
+./provaWrite_cpp.so: /usr/include/c++/4.8/memory
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TFile.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDirectoryFile.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDirectory.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TList.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TSeqCollection.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TCollection.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TIterator.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TDatime.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TUUID.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TMap.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/THashTable.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/TUrl.h
+./provaWrite_cpp.so: /home/federico/Scaricati/root/root-6.04.00/include/RVersion.h /home/federico/Scaricati/root/root-6.04.00/include/RConfig.h /home/federico/Scaricati/root/root-6.04.00/include/TClass.h /home/federico/Scaricati/root/root-6.04.00/include/TDictAttributeMap.h /home/federico/Scaricati/root/root-6.04.00/include/TInterpreter.h /home/federico/Scaricati/root/root-6.04.00/include/TROOT.h /home/federico/Scaricati/root/root-6.04.00/include/TBuffer.h /home/federico/Scaricati/root/root-6.04.00/include/TMemberInspector.h /home/federico/Scaricati/root/root-6.04.00/include/TError.h /home/federico/Scaricati/root/root-6.04.00/include/RtypesImp.h /home/federico/Scaricati/root/root-6.04.00/include/TIsAProxy.h /home/federico/Scaricati/root/root-6.04.00/include/TFileMergeInfo.h /home/federico/Scaricati/root/root-6.04.00/include/TCollectionProxyInfo.h
+provaWrite_cpp__ROOTBUILDVERSION= 6.04/00

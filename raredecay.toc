@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Introduzione}{3}
+\contentsline {section}{\numberline {2}Apparato sperimentale simulato}{3}
+\contentsline {section}{\numberline {3}Struttura del codice}{4}
+\contentsline {section}{\numberline {4}Generazione dell'evento}{6}
+\contentsline {section}{\numberline {5}Simulazione della risposta dei rivelatori}{10}
+\contentsline {section}{\numberline {6}Ricostruzione dell'evento}{11}
+\contentsline {section}{\numberline {7}Accettanza}{11}
+\contentsline {section}{\numberline {8}Conclusioni}{12}
+\contentsline {section}{\numberline {9}Appendice A: Risultati della ricostruzione}{13}
+\contentsline {section}{\numberline {10}\ Appendice B: Calcolo dello stimatore del branching ratio}{19}
+\contentsline {section}{\numberline {11}\ Appendice C: Valori delle costanti e unit\IeC {\`a} di misura}{21}

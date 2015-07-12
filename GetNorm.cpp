@@ -12,7 +12,7 @@
 #ifndef _GENERATION
 #define _GENERATION
 Double_t Pi_Mass = 0.13957018; //Pi+ mass [GeV]
-Double_t K_Mass = 0.493667; //   K+ mass  [GeV]
+Double_t K_Mass = 0.493677; //   K+ mass  [GeV]
 Double_t Pi0_Mass = 0.1349766; //Pi0 mass [GeV]
 Double_t K_E = 60;        //K mean energy [GeV]
 Double_t K_sigma = 5;    //K energy sigma [GeV]

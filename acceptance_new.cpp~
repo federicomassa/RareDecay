@@ -1,0 +1,110 @@
+#include "generation.cpp"
+#include "detector.cpp"
+#include "reconstruction_n.cpp"
+#include "reconstruction_r.cpp"
+
+#include <TGraphErrors.h>
+#include <TMath.h>
+#include <TFile.h>
+#include <string>
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+
+using namespace TMath;
+
+Double_t R_int_min = 0.05; //m
+Double_t R_int_max = 1.0;
+Int_t nR = 5; //number of R values
+Double_t Delta_R = (R_int_max-R_int_min)/Double_t(nR-1);
+
+Double_t Wc_min = 0; // GeV^2
+Double_t Wc_max = 0.15; 
+Int_t nW = 50; //number of Wc values
+Double_t Delta_W = (Wc_max-Wc_min)/Double_t(nW-1);
+
+void acceptance() {
+
+  TFile* out;
+  TFile* in_n;
+  TFile* in_r;
+
+  TNtupleD* nt_n;
+  TNtupleD* nt_r;
+
+  TGraphErrors* gr_n = new TGraphErrors[nR];
+  TGraphErrors* gr_r = new TGraphErrors[nR];
+  Double_t acc_n, acc_r;
+
+  string name_n = "gr_n";
+  string name_r = "gr_r";
+  string title = "Acceptance, R = ";
+  string Rval;
+  string Wc_str;
+
+  stringstream ss;
+  generation(0,"");
+
+
+  for (Int_t i = 0; i < nR; i++) {
+
+    std::cout << "R = " << R_int_min + Double_t(i)*Delta_R << '\n' << std::endl;
+    
+    detector(R_int_min + Double_t(i)*Delta_R, "q");
+    
+    ss << std::setprecision(3) << R_int_min + Double_t(i)*Delta_R;
+    ss >> Rval;
+    ss.clear();
+   
+
+    gr_n[i].SetNameTitle((name_n + Rval).c_str(), (title + Rval).c_str());
+    gr_r[i].SetNameTitle((name_r + Rval).c_str(), (title + Rval).c_str());
+
+    reconstruction_n(-100.0, "q");
+    in_n = new TFile("reconstruction_n.root");
+    nt_n = (TNtupleD*) in_n->Get("nt_n_reco");
+    reconstruction_r(-100.0, "q");
+    in_r = new TFile("reconstruction_r.root");      
+    nt_r = (TNtupleD*) in_r->Get("nt_r_reco");
+    
+    for (Int_t j = 0; j < nW; j++) {
+      
+      ss << std::setprecision(12) << Wc_min + Double_t(j)*Delta_W;
+      ss >> Wc_str;
+      ss.clear();
+      acc_n = Double_t(nt_n->GetEntries(("W_n > " + Wc_str).c_str()))/100000.0;
+      acc_r = Double_t(nt_r->GetEntries(("W_r > " + Wc_str).c_str()))/100000.0;
+      // std::cout << acc_n << std::endl;
+      // std::cout << acc_r << std::endl;
+
+      // std::cout << std::endl;
+
+      gr_n[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, acc_n);
+      gr_n[i].SetPointError(j, 0.0, Sqrt(acc_n*(1-acc_n)/100000.0));
+      gr_r[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, acc_r);
+      gr_r[i].SetPointError(j, 0.0, Sqrt(acc_r*(1-acc_r)/100000.0));
+
+    }
+    
+    std::cout << std::endl;
+
+    delete in_n;
+    in_n = NULL;
+    delete in_r;
+    in_r = NULL;
+    delete nt_n;
+    nt_n = NULL;
+    delete nt_r;
+    nt_r = NULL;
+    
+  }
+
+  out = new TFile("acceptance_new.root", "recreate");
+
+  for (Int_t i = 0; i < nR; i++) {
+  gr_n[i].Write();
+  gr_r[i].Write();
+   }
+  out->Close();
+
+}
