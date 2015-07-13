@@ -13,16 +13,16 @@
 
 using namespace TMath;
 
-Double_t BR = 1E-2;
+Double_t BR = 1E-10;
 
 Double_t R_int_min = 0.1; //m
 Double_t R_int_max = 0.2;
 Int_t nR = 11; //number of R values
 Double_t Delta_R = (R_int_max-R_int_min)/Double_t(nR-1);
 
-Double_t Wc_min = 0; // GeV^2
-Double_t Wc_max = 0.2; 
-Int_t nW = 50; //number of Wc values
+Double_t Wc_min = -0.1; // GeV^2
+Double_t Wc_max = 0.125; 
+Int_t nW = 120; //number of Wc values
 Double_t Delta_W = (Wc_max-Wc_min)/Double_t(nW-1);
 
 void acceptance() {
@@ -37,6 +37,7 @@ void acceptance() {
   TGraphErrors* gr_n = new TGraphErrors[nR];
   TGraphErrors* gr_r = new TGraphErrors[nR];
   TGraphErrors* var_gr = new TGraphErrors[nR];
+  TGraphErrors* sn_gr = new TGraphErrors[nR];
  
   Double_t acc_n, acc_r;
 
@@ -61,12 +62,13 @@ void acceptance() {
   // reconstruction_r();
 
 
-    
-
+  ///////////////  //////////////
+  nR = 1;
+  /////////////// ///////////////
+  
   for (Int_t i = 0; i < nR; i++) {
 
     std::cout << "R = " << R_int_min + Double_t(i)*Delta_R << '\n' << std::endl;
-    
 
     Rval = "";
     ss << std::setprecision(3) << R_int_min + Double_t(i)*Delta_R;
@@ -98,12 +100,17 @@ void acceptance() {
 
       // std::cout << std::endl;
 
-      gr_n[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, acc_n);
-      gr_n[i].SetPointError(j, 0.0, Sqrt(acc_n*(1-acc_n)/Double_t(imax)));
-      gr_r[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, acc_r);
-      gr_r[i].SetPointError(j, 0.0, Sqrt(acc_r*(1-acc_r)/Double_t(imax)));
-      var_gr[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, (acc_n + (acc_r-acc_n)*BR)/(acc_r*acc_r*BR*BR));
-      var_gr[i].SetPointError(j, 0.0, Sqrt(Power(acc_r,-4)*Power(gr_n[i].GetErrorY(j),2) + Power(acc_r*BR+2*acc_n,2)/Power(acc_r,6)*Power(gr_r[i].GetErrorY(j),2)));
+
+      // OCCHIO AL DIVISO ACC GEOM e al VETO REJECTION
+      gr_n[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, acc_n/0.14781/Power(10,8));
+      gr_n[i].SetPointError(j, 0.0, Sqrt(acc_n*(1-acc_n)/Double_t(imax))/0.14781/Power(10,8));
+      gr_r[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, acc_r/0.13983);
+      gr_r[i].SetPointError(j, 0.0, Sqrt(acc_r*(1-acc_r)/Double_t(imax))/0.13983);
+      var_gr[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, (acc_r*acc_r*BR*BR)/(acc_n/Power(10,8) + (acc_r-acc_n/Power(10,8))*BR));
+      var_gr[i].SetPointError(j,0.0,0.0);
+      // var_gr[i].SetPointError(j, 0.0, Sqrt(Power(acc_r,-4)*Power(gr_n[i].GetErrorY(j),2) + Power(acc_r*BR+2*acc_n,2)/Power(acc_r,6)*Power(gr_r[i].GetErrorY(j),2)));
+
+      sn_gr[i].SetPoint(j, Wc_min + Double_t(j)*Delta_W, (acc_r*BR)/(acc_n/Power(10,8)*(1.0-BR)));
 
     }
     
@@ -118,6 +125,7 @@ void acceptance() {
   gr_n[i].Write();
   gr_r[i].Write();
   var_gr[i].Write();
+  sn_gr[i].Write();
    }
 
   out->Close();

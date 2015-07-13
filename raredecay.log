@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.6)  12 JUL 2015 21:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.6)  13 JUL 2015 20:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -480,8 +480,12 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 28.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./rare
-decay.toc
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 50.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 50.
+ (./raredecay.toc
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
@@ -494,348 +498,375 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 [2] (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-<apparato_rare_3d.png, id=20, 1442.38875pt x 670.75594pt>
+<apparato_rare_3d.png, id=24, 1442.38875pt x 670.75594pt>
 File: apparato_rare_3d.png Graphic file (type png)
 
 <use apparato_rare_3d.png>
-Package pdftex.def Info: apparato_rare_3d.png used on input line 69.
+Package pdftex.def Info: apparato_rare_3d.png used on input line 72.
 (pdftex.def)             Requested size: 432.71997pt x 201.22833pt.
 
-<apparato_rare_2d.png, id=22, 1442.38875pt x 670.75594pt>
+<apparato_rare_2d.png, id=26, 1442.38875pt x 670.75594pt>
 File: apparato_rare_2d.png Graphic file (type png)
 
 <use apparato_rare_2d.png>
-Package pdftex.def Info: apparato_rare_2d.png used on input line 75.
+Package pdftex.def Info: apparato_rare_2d.png used on input line 78.
 (pdftex.def)             Requested size: 432.71997pt x 201.22833pt.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 76.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./apparato_rare_3d.png>]
-<structure_rare.png, id=29, 667.49374pt x 914.41624pt>
+[3 <./apparato_rare_3d.png>] [4 <./apparato_rare_2d.png>]
+<structure_rare.png, id=41, 667.49374pt x 914.41624pt>
 File: structure_rare.png Graphic file (type png)
 
 <use structure_rare.png>
-Package pdftex.def Info: structure_rare.png used on input line 113.
+Package pdftex.def Info: structure_rare.png used on input line 134.
 (pdftex.def)             Requested size: 266.99277pt x 365.76003pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-[4 <./apparato_rare_2d.png>] [5 <./structure_rare.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 121.
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
-Overfull \hbox (2.2625pt too wide) in paragraph at lines 123--124
-[]\OT1/cmr/m/it/10.95 Reconstruction: \OT1/cmr/m/n/10.95 ef-fet-tua un fit cin-
-e-matico dell'evento e ne ri-costru-isce il ver-tice e l'impulso,
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 <gen_E_beam.png, id=42, 1859.94875pt x 928.46875pt>
 File: gen_E_beam.png Graphic file (type png)
  <use gen_E_beam.png>
-Package pdftex.def Info: gen_E_beam.png used on input line 134.
+Package pdftex.def Info: gen_E_beam.png used on input line 155.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 134--135
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 155--156
  [] 
  []
 
 <gen_z.png, id=43, 1859.94875pt x 928.46875pt>
 File: gen_z.png Graphic file (type png)
  <use gen_z.png>
-Package pdftex.def Info: gen_z.png used on input line 142.
+Package pdftex.def Info: gen_z.png used on input line 163.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 142--143
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 163--164
  [] 
  []
 
 <gen_p_N.png, id=44, 1859.94875pt x 928.46875pt>
 File: gen_p_N.png Graphic file (type png)
  <use gen_p_N.png>
-Package pdftex.def Info: gen_p_N.png used on input line 150.
+Package pdftex.def Info: gen_p_N.png used on input line 171.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 150--151
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 171--172
  [] 
  []
 
 <gen_theta_N.png, id=45, 1859.94875pt x 928.46875pt>
 File: gen_theta_N.png Graphic file (type png)
  <use gen_theta_N.png>
-Package pdftex.def Info: gen_theta_N.png used on input line 158.
+Package pdftex.def Info: gen_theta_N.png used on input line 179.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 158--159
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 179--180
  [] 
  []
 
 <gen_p_R.png, id=46, 1859.94875pt x 928.46875pt>
 File: gen_p_R.png Graphic file (type png)
  <use gen_p_R.png>
-Package pdftex.def Info: gen_p_R.png used on input line 166.
+Package pdftex.def Info: gen_p_R.png used on input line 187.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 166--167
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 187--188
  [] 
  []
 
 <gen_theta_R.png, id=47, 1859.94875pt x 928.46875pt>
 File: gen_theta_R.png Graphic file (type png)
  <use gen_theta_R.png>
-Package pdftex.def Info: gen_theta_R.png used on input line 174.
+Package pdftex.def Info: gen_theta_R.png used on input line 195.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 174--175
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 195--196
  [] 
  []
 
 <gen_miss.png, id=48, 1684.2925pt x 926.46124pt>
 File: gen_miss.png Graphic file (type png)
  <use gen_miss.png>
-Package pdftex.def Info: gen_miss.png used on input line 182.
+Package pdftex.def Info: gen_miss.png used on input line 203.
 (pdftex.def)             Requested size: 421.0721pt x 231.61473pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-[6] [7 <./gen_E_beam.png> <./gen_z.png>] [8 <./gen_p_N.png> <./gen_theta_N.png>
-] [9 <./gen_p_R.png> <./gen_theta_R.png>] [10 <./gen_miss.png>] [11] [12]
-<reco_x1_N.png, id=74, 1859.94875pt x 928.46875pt>
+[5] [6 <./structure_rare.png>] [7 <./gen_E_beam.png> <./gen_z.png>] [8 <./gen_p
+_N.png> <./gen_theta_N.png>] [9 <./gen_p_R.png> <./gen_theta_R.png>] [10 <./gen
+_miss.png>] [11] [12] <acc_taglio.png, id=78, 1197.72469pt x 580.41844pt>
+File: acc_taglio.png Graphic file (type png)
+
+<use acc_taglio.png>
+Package pdftex.def Info: acc_taglio.png used on input line 330.
+(pdftex.def)             Requested size: 359.32018pt x 174.12688pt.
+ [13]
+<reco_miss_N_fit.png, id=84, 1282.7925pt x 773.89125pt>
+File: reco_miss_N_fit.png Graphic file (type png)
+
+<use reco_miss_N_fit.png>
+Package pdftex.def Info: reco_miss_N_fit.png used on input line 354.
+(pdftex.def)             Requested size: 320.69734pt x 193.47234pt.
+
+<acc_taglio_veto.png, id=85, 1197.72469pt x 580.41844pt>
+File: acc_taglio_veto.png Graphic file (type png)
+
+<use acc_taglio_veto.png>
+Package pdftex.def Info: acc_taglio_veto.png used on input line 371.
+(pdftex.def)             Requested size: 359.32018pt x 174.12688pt.
+ <acc_s2.png, id=86, 1596.96625pt x 773.89125pt>
+File: acc_s2.png Graphic file (type png)
+
+<use acc_s2.png>
+Package pdftex.def Info: acc_s2.png used on input line 379.
+(pdftex.def)             Requested size: 399.24059pt x 193.47234pt.
+ <acc_sn.png, id=87, 1596.96625pt x 773.89125pt>
+File: acc_sn.png Graphic file (type png)
+
+<use acc_sn.png>
+Package pdftex.def Info: acc_sn.png used on input line 387.
+(pdftex.def)             Requested size: 399.24059pt x 193.47234pt.
+ [14 <./acc_taglio.png>] [15 <./reco_miss_N_fit.png> <./acc_taglio_veto.png>] [
+16 <./acc_s2.png> <./acc_sn.png>] [17]
+<reco_x1_N.png, id=103, 1859.94875pt x 928.46875pt>
 File: reco_x1_N.png Graphic file (type png)
  <use reco_x1_N.png>
-Package pdftex.def Info: reco_x1_N.png used on input line 290.
+Package pdftex.def Info: reco_x1_N.png used on input line 428.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 290--291
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 428--429
  [] 
  []
 
-<reco_y1_N.png, id=75, 1859.94875pt x 928.46875pt>
+<reco_y1_N.png, id=104, 1859.94875pt x 928.46875pt>
 File: reco_y1_N.png Graphic file (type png)
  <use reco_y1_N.png>
-Package pdftex.def Info: reco_y1_N.png used on input line 298.
+Package pdftex.def Info: reco_y1_N.png used on input line 436.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 298--299
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 436--437
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_z_N.png, id=76, 1859.94875pt x 928.46875pt>
+<reco_z_N.png, id=105, 1859.94875pt x 928.46875pt>
 File: reco_z_N.png Graphic file (type png)
  <use reco_z_N.png>
-Package pdftex.def Info: reco_z_N.png used on input line 306.
+Package pdftex.def Info: reco_z_N.png used on input line 444.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 306--307
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 444--445
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_p_N.png, id=77, 1684.2925pt x 926.46124pt>
+<reco_p_N.png, id=106, 1684.2925pt x 926.46124pt>
 File: reco_p_N.png Graphic file (type png)
  <use reco_p_N.png>
-Package pdftex.def Info: reco_p_N.png used on input line 314.
+Package pdftex.def Info: reco_p_N.png used on input line 452.
 (pdftex.def)             Requested size: 421.0721pt x 231.61473pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_miss_N.png, id=78, 1859.94875pt x 928.46875pt>
+<reco_miss_N.png, id=107, 1859.94875pt x 928.46875pt>
 File: reco_miss_N.png Graphic file (type png)
  <use reco_miss_N.png>
-Package pdftex.def Info: reco_miss_N.png used on input line 322.
+Package pdftex.def Info: reco_miss_N.png used on input line 460.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 322--323
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 460--461
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13
+[18
 
  <./reco_x1_N.png>]
 
-LaTeX Warning: Text page 14 contains only floats.
+LaTeX Warning: Text page 19 contains only floats.
 
 
 Overfull \vbox (2.25665pt too high) has occurred while \output is active []
 
 
-[14 <./reco_y1_N.png> <./reco_z_N.png>]
+[19 <./reco_y1_N.png> <./reco_z_N.png>]
 
-LaTeX Warning: Text page 15 contains only floats.
+LaTeX Warning: Text page 20 contains only floats.
 
-[15 <./reco_p_N.png> <./reco_miss_N.png>]
-<reco_x1_R.png, id=89, 1859.94875pt x 928.46875pt>
+[20 <./reco_p_N.png> <./reco_miss_N.png>]
+<reco_x1_R.png, id=118, 1859.94875pt x 928.46875pt>
 File: reco_x1_R.png Graphic file (type png)
  <use reco_x1_R.png>
-Package pdftex.def Info: reco_x1_R.png used on input line 333.
+Package pdftex.def Info: reco_x1_R.png used on input line 471.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 333--334
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 471--472
  [] 
  []
 
-<reco_y1_R.png, id=90, 1859.94875pt x 928.46875pt>
+<reco_y1_R.png, id=119, 1859.94875pt x 928.46875pt>
 File: reco_y1_R.png Graphic file (type png)
  <use reco_y1_R.png>
-Package pdftex.def Info: reco_y1_R.png used on input line 341.
+Package pdftex.def Info: reco_y1_R.png used on input line 479.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 341--342
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 479--480
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_z_R.png, id=91, 1859.94875pt x 928.46875pt>
+<reco_z_R.png, id=120, 1859.94875pt x 928.46875pt>
 File: reco_z_R.png Graphic file (type png)
  <use reco_z_R.png>
-Package pdftex.def Info: reco_z_R.png used on input line 349.
+Package pdftex.def Info: reco_z_R.png used on input line 487.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 349--350
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 487--488
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_p_R.png, id=92, 1859.94875pt x 928.46875pt>
+<reco_p_R.png, id=121, 1859.94875pt x 928.46875pt>
 File: reco_p_R.png Graphic file (type png)
  <use reco_p_R.png>
-Package pdftex.def Info: reco_p_R.png used on input line 357.
+Package pdftex.def Info: reco_p_R.png used on input line 495.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 357--358
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 495--496
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_miss_R.png, id=93, 1859.94875pt x 928.46875pt>
+<reco_miss_R.png, id=122, 1859.94875pt x 928.46875pt>
 File: reco_miss_R.png Graphic file (type png)
  <use reco_miss_R.png>
-Package pdftex.def Info: reco_miss_R.png used on input line 365.
+Package pdftex.def Info: reco_miss_R.png used on input line 503.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 365--366
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 503--504
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16
+[21
 
  <./reco_x1_R.png>]
 
-LaTeX Warning: Text page 17 contains only floats.
+LaTeX Warning: Text page 22 contains only floats.
 
 
 Overfull \vbox (2.25665pt too high) has occurred while \output is active []
 
 
-[17 <./reco_y1_R.png> <./reco_z_R.png>]
+[22 <./reco_y1_R.png> <./reco_z_R.png>]
 
-LaTeX Warning: Text page 18 contains only floats.
+LaTeX Warning: Text page 23 contains only floats.
 
-[18 <./reco_p_R.png> <./reco_miss_R.png>]
-<reco_miss_norm.png, id=103, 1859.94875pt x 928.46875pt>
+[23 <./reco_p_R.png> <./reco_miss_R.png>]
+<reco_miss_norm.png, id=132, 1859.94875pt x 928.46875pt>
 File: reco_miss_norm.png Graphic file (type png)
 
 <use reco_miss_norm.png>
-Package pdftex.def Info: reco_miss_norm.png used on input line 376.
+Package pdftex.def Info: reco_miss_norm.png used on input line 514.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 376--378
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 514--516
  [] 
  []
 
-[19
+[24
 
- <./reco_miss_norm.png>] [20] (./bibRareDecay.bib) [21] (./raredecay.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ <./reco_miss_norm.png>] [25] (./bibRareDecay.bib) [26] (./raredecay.aux) ) 
 Here is how much of TeX's memory you used:
- 6320 strings out of 493093
- 96143 string characters out of 6134996
- 169473 words of memory out of 5000000
- 9637 multiletter control sequences out of 15000+600000
- 21607 words of font info for 86 fonts, out of 8000000 for 9000
+ 6369 strings out of 493093
+ 96935 string characters out of 6134996
+ 170534 words of memory out of 5000000
+ 9677 multiletter control sequences out of 15000+600000
+ 23328 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,15n,40p,1107b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on raredecay.pdf (21 pages, 1281046 bytes).
+ 42i,15n,40p,1127b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+</us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on raredecay.pdf (26 pages, 1437917 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 225 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
