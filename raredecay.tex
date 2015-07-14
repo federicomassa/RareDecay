@@ -65,7 +65,7 @@ Il progetto consiste nella simulazione di un sistema composto da uno spettrometr
 
 \section{Apparato sperimentale simulato} \label{sec:apparato}
 \justify
-Il sistema è composto da uno spettrometro con quattro piani di rivelazione e da un calorimetro non segmentato. Con riferimento a fig.\ref{fig:apparato_rare_3d}, \ref{fig:apparato_rare_2d}, nella seguente tabella sono riportate le caratteristiche geometriche e di risoluzione dell'apparato. \\
+Il sistema è composto da uno spettrometro con quattro piani di rivelazione e da un calorimetro non segmentato. I piani dello spettrometro sono modellizzati da una corona circolare di raggio interno $R_{int}$ e raggio esterno $R_{ext}$. Con riferimento a fig.\ref{fig:apparato_rare_3d}, \ref{fig:apparato_rare_2d}, nella seguente tabella sono riportate le caratteristiche geometriche e di risoluzione dell'apparato. \\
 
 
 \begin{figure}
@@ -125,6 +125,8 @@ $\alpha_E$ & 0.2 \\
 
 Il campo magnetico simulato vale $B = 1.34\ T$, giace sull'asse x ed è confinato in una zona di lunghezza $\Delta L = 0.50\ m$.
 
+\newpage
+
 \section{Struttura del codice} \label{sec:struttura}
 Il codice per questa simulazione è stato scritto in C++ utilizzando alcune librerie ROOT per il salvataggio e la visualizzazione dei dati. 
 La struttura scelta consiste in tre moduli che lavorano in sequenza, utilizzando l'output del modulo precedente come input e producendo un output e fa uso della classe ROOT \textit{TNtupleD} per il salvataggio dei dati in forma di evento. Questa struttura è ripetuta in modo identico per i due canali di decadimento. I risultati ottenuti per i due canali vengono infine messi a confronto per cercare il miglior taglio degli eventi per una data configurazione sperimentale. In fig.\ref{fig:structure} è mostrato un diagramma che schematizza la struttura del codice. 
@@ -146,6 +148,8 @@ I moduli svolgono le seguenti funzioni: \\
 \end{itemize}
 
 La loro funzionalità è descritta nel dettaglio nelle seguenti sezioni.
+
+\newpage
 
 \section{Generazione dell'evento} \label{sec:generation}
 Il modulo di generazione fa uso della classe ROOT \textit{TGenPhaseSpace}. Questa classe implementa un algoritmo per generare eventi a molti corpi con spazio delle fasi uniforme come catene di decadimenti a due corpi. L'algoritmo produce eventi \textit{pesati}, che hanno il vantaggio di essere generati in maniera più veloce ma alcune complicazioni pratiche come quella di dover tenere in memoria, evento per evento, il suo peso per tutti e tre i moduli. Si è deciso di scrivere una classe derivata, chiamata \textit{FGenPhaseSpace}, in cui le funzionalità della classe madre vengono preservate ma si aggiunge la possibilità di generare eventi senza peso. Questo è stato realizzato sostanzialmente normalizzando il peso dell'evento al peso massimo di tale classe di eventi e accettando ogni evento con probabilità uguale a tale peso normalizzato. In fig.\ref{fig:gen_E_beam} - \ref{fig:gen_miss} sono mostrate le distribuzioni di alcune quantità rilevanti degli eventi. Si indica da ora in avanti con \textit{N} il decadimento a due corpi e con \textit{R} quello raro a tre corpi. 
@@ -213,6 +217,7 @@ $$
 
 Nel caso del decadimento a due corpi questa quantità è distribuita come una $\delta$, mentre in quello a tre corpi ha una distribuzione continua. 
 In realtà un'altra differenza si può riscontrare nell'angolo e nell'impulso massimo dei due canali di decadimento, ma si tratta di una piccola differenza difficilmente sfruttabile se non con un apparato a risoluzione molto elevata e a scapito dell'accettanza. 
+
 
 \section{Simulazione della risposta dei rivelatori} \label{sec:detector}
 Il modulo \textit{Detector} si occupa prima di tutto di calcolare i punti di passaggio reali della particella nello spettrometro. Per fare questo è stata seguita la stessa procedura già utilizzata in un lavoro precedente\cite{spettrometro} sfruttando i dati provenienti da \textit{ntuple\_gen}. Sono stati quindi calcolati i punti di passaggio utilizzando l'approssimazione di kick del magnete, giustificata dal fatto che $p_{kick} = 0.2\ GeV/c << p_{min} = 5\ GeV/c$. Uno smeering gaussiano di larghezza $\sigma_x$ è stato poi applicato ai punti per produrre i dati sperimentali (vedi tab.\ref{tab:apparato}, sez.\ref{sec:apparato}). La risposta del calorimetro è stata anch'essa supposta gaussiana, con una larghezza dipendente dall'energia e uguale a $\sigma_E (GeV) = 20\% \sqrt{E(GeV)}$. I risultati sono stati salvati in \textit{ntuple\_det}.
@@ -400,6 +405,8 @@ $$
 t \approx 60\ y
 $$
 
+\newpage
+
 \section{Conclusioni} \label{sec:conclusioni}
 
 Il tempo di misura trovato rende l'esperimento impossibile da realizzare con questa configurazione sperimentale. Notiamo che il tempo di misura minimo si ottiene quando l'accettanza del fondo è trascurabile e l'accettanza degli eventi di segnale è $100\%$ e vale $0.22\ y$, che sarebbe invece accettabile. Ci sono vari modi per migliorare l'accettanza degli eventi di segnale:
@@ -421,19 +428,20 @@ Tra i limiti della simulazione si trovano:
 
 \section{Appendice A: Risultati della ricostruzione} \label{sec:grafici}
 
-\clearpage
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[scale=0.25]{reco_x1_N}
+\includegraphics[scale=0.24]{reco_x1_N}
 \caption{Risoluzione della coordinata x del rivelatore 1 nel decadimento a due corpi. In rosso, fit gaussiano (incompatibile).}
 \label{fig:reco_x1_N}
 \end{center}
 \end{figure}
 
+\clearpage
+
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[scale=0.25]{reco_y1_N}
+\includegraphics[scale=0.20]{reco_y1_N}
 \caption{Risoluzione della coordinata y del rivelatore 1 nel decadimento a due corpi. In rosso, fit gaussiano (incompatibile).}
 \label{fig:reco_y1_N}
 \end{center}
@@ -455,6 +463,7 @@ Tra i limiti della simulazione si trovano:
 \end{center}
 \end{figure}
 
+
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[scale=0.25]{reco_miss_N}
@@ -464,7 +473,6 @@ Tra i limiti della simulazione si trovano:
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%
-\clearpage
 
 \begin{figure}[!h]
 \begin{center}
@@ -473,6 +481,7 @@ Tra i limiti della simulazione si trovano:
 \label{fig:reco_x1_R}
 \end{center}
 \end{figure}
+
 
 \begin{figure}[!h]
 \begin{center}
@@ -490,6 +499,7 @@ Tra i limiti della simulazione si trovano:
 \end{center}
 \end{figure}
 
+
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[scale=0.25]{reco_p_R}
@@ -497,6 +507,7 @@ Tra i limiti della simulazione si trovano:
 \label{fig:reco_p_R}
 \end{center}
 \end{figure}
+
 
 \begin{figure}[!h]
 \begin{center}
@@ -507,7 +518,6 @@ Tra i limiti della simulazione si trovano:
 \end{figure}
 
 %%%%%%%%%
-\clearpage
 
 \begin{figure}[!h]
 \begin{center}
@@ -517,6 +527,8 @@ sono normalizzate.}
 \label{fig:reco_miss_norm}
 \end{center}
 \end{figure}
+
+\clearpage
 
 \section{\ Appendice B: Calcolo dello stimatore del branching ratio} \label{sec:calcoli}
 \justify
@@ -612,6 +624,8 @@ $$
 \end{itemize}
 
 Le unità di misura, laddove non indicate, sono da intendersi \textit{m} per le lunghezze, \textit{GeV} per le energie, \textit{GeV/c} per gli impulsi, \textit{$GeV/c^2$} per le masse, \textit{s} per i tempi.
+
+\newpage
 
 \input{bibRareDecay.bib}
 

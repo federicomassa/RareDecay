@@ -1,23 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.6)  13 JUL 2015 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.29)  14 JUL 2015 00:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **raredecay.tex
 (./raredecay.tex
-LaTeX2e <2015/01/01> patch level 1
+LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/extsizes/extarticle.cls
+(/usr/local/texlive/2014/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/extsizes/size8.clo
+(/usr/local/texlive/2014/texmf-dist/tex/latex/extsizes/size8.clo
 File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/exscale.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 52.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
 \big@size=\dimen102
 )
 \c@part=\count79
@@ -32,7 +32,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tocloft/tocloft.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
 \cftparskip=\skip43
@@ -69,37 +69,37 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cfttabindent=\skip72
 \cfttabnumwidth=\skip73
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/makeidx.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -107,24 +107,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip74
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen106
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -165,29 +165,29 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen115
@@ -203,18 +203,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@subfigure=\count103
 \c@subtable=\count104
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/utf8x.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/ucs.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucs.sty
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-global.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 \uc@secondtry=\count105
@@ -222,7 +222,7 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 \uc@combtoksb=\toks23
 \uc@temptokena=\toks24
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip77
@@ -234,19 +234,19 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen125
 \titlewidthfirst=\dimen126
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/bm.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup7
 \symboldletters=\mathgroup8
 \symboldsymbols=\mathgroup9
 \symboldlasy=\mathgroup10
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 207.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2015/06/17 v1.17 mathematical typesetting tools
+(/usr/local/texlive/2014/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count106
 \calc@Bcount=\count107
@@ -254,16 +254,14 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen128
 \calc@Askip=\skip79
 \calc@Bskip=\skip80
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count108
 \calc@Cskip=\skip81
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count109
@@ -276,17 +274,17 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen134
 \l_MT_below_shortintertext_sep=\dimen135
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/ragged2e.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
 
 LaTeX Warning: Command \@arrayparboxrestore  has changed.
                Check if current package is valid.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everysel.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/footmisc/footmisc.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks26
 \footnotemargin=\dimen136
@@ -315,18 +313,18 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 \RaggedRightParindent=\skip95
 \JustifyingParindent=\skip96
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count111
@@ -363,7 +361,7 @@ LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
 \scratchdimen=\dimen145
@@ -376,11 +374,11 @@ LaTeX Font Info:    ... okay on input line 24.
 \MPnumerator=\count118
 \makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks29
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -389,22 +387,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -416,14 +414,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/ucsencs.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 Package ragged2e Info: ABD: executing \RaggedRight on input line 24.
@@ -466,21 +464,21 @@ LaTeX Info: Redefining \selectfont on input line 24.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 28.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 28.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
@@ -495,7 +493,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 \openout4 = `raredecay.toc'.
 
 
-[2] (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-0.def
+[2] (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
@@ -529,228 +527,194 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: structure_rare.png Graphic file (type png)
 
 <use structure_rare.png>
-Package pdftex.def Info: structure_rare.png used on input line 134.
+Package pdftex.def Info: structure_rare.png used on input line 136.
 (pdftex.def)             Requested size: 266.99277pt x 365.76003pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
 
 Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 144.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-<gen_E_beam.png, id=42, 1859.94875pt x 928.46875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+[5] [6 <./structure_rare.png>]
+<gen_E_beam.png, id=50, 1859.94875pt x 928.46875pt>
 File: gen_E_beam.png Graphic file (type png)
  <use gen_E_beam.png>
-Package pdftex.def Info: gen_E_beam.png used on input line 155.
+Package pdftex.def Info: gen_E_beam.png used on input line 159.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 155--156
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 159--160
  [] 
  []
 
-<gen_z.png, id=43, 1859.94875pt x 928.46875pt>
+<gen_z.png, id=51, 1859.94875pt x 928.46875pt>
 File: gen_z.png Graphic file (type png)
  <use gen_z.png>
-Package pdftex.def Info: gen_z.png used on input line 163.
+Package pdftex.def Info: gen_z.png used on input line 167.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 163--164
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 167--168
  [] 
  []
 
-<gen_p_N.png, id=44, 1859.94875pt x 928.46875pt>
+<gen_p_N.png, id=52, 1859.94875pt x 928.46875pt>
 File: gen_p_N.png Graphic file (type png)
  <use gen_p_N.png>
-Package pdftex.def Info: gen_p_N.png used on input line 171.
+Package pdftex.def Info: gen_p_N.png used on input line 175.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 171--172
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 175--176
  [] 
  []
 
-<gen_theta_N.png, id=45, 1859.94875pt x 928.46875pt>
+<gen_theta_N.png, id=53, 1859.94875pt x 928.46875pt>
 File: gen_theta_N.png Graphic file (type png)
  <use gen_theta_N.png>
-Package pdftex.def Info: gen_theta_N.png used on input line 179.
+Package pdftex.def Info: gen_theta_N.png used on input line 183.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 179--180
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 183--184
  [] 
  []
 
-<gen_p_R.png, id=46, 1859.94875pt x 928.46875pt>
+<gen_p_R.png, id=54, 1859.94875pt x 928.46875pt>
 File: gen_p_R.png Graphic file (type png)
  <use gen_p_R.png>
-Package pdftex.def Info: gen_p_R.png used on input line 187.
+Package pdftex.def Info: gen_p_R.png used on input line 191.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 187--188
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 191--192
  [] 
  []
 
-<gen_theta_R.png, id=47, 1859.94875pt x 928.46875pt>
+<gen_theta_R.png, id=55, 1859.94875pt x 928.46875pt>
 File: gen_theta_R.png Graphic file (type png)
  <use gen_theta_R.png>
-Package pdftex.def Info: gen_theta_R.png used on input line 195.
+Package pdftex.def Info: gen_theta_R.png used on input line 199.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 195--196
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 199--200
  [] 
  []
 
-<gen_miss.png, id=48, 1684.2925pt x 926.46124pt>
+<gen_miss.png, id=56, 1684.2925pt x 926.46124pt>
 File: gen_miss.png Graphic file (type png)
  <use gen_miss.png>
-Package pdftex.def Info: gen_miss.png used on input line 203.
+Package pdftex.def Info: gen_miss.png used on input line 207.
 (pdftex.def)             Requested size: 421.0721pt x 231.61473pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-[5] [6 <./structure_rare.png>] [7 <./gen_E_beam.png> <./gen_z.png>] [8 <./gen_p
-_N.png> <./gen_theta_N.png>] [9 <./gen_p_R.png> <./gen_theta_R.png>] [10 <./gen
-_miss.png>] [11] [12] <acc_taglio.png, id=78, 1197.72469pt x 580.41844pt>
+[7 <./gen_E_beam.png>] [8 <./gen_z.png> <./gen_p_N.png>] [9 <./gen_theta_N.png>
+ <./gen_p_R.png>] [10 <./gen_theta_R.png> <./gen_miss.png>] [11] [12] [13]
+<acc_taglio.png, id=83, 1197.72469pt x 580.41844pt>
 File: acc_taglio.png Graphic file (type png)
-
-<use acc_taglio.png>
-Package pdftex.def Info: acc_taglio.png used on input line 330.
+ <use acc_taglio.png>
+Package pdftex.def Info: acc_taglio.png used on input line 335.
 (pdftex.def)             Requested size: 359.32018pt x 174.12688pt.
- [13]
+
 <reco_miss_N_fit.png, id=84, 1282.7925pt x 773.89125pt>
 File: reco_miss_N_fit.png Graphic file (type png)
 
 <use reco_miss_N_fit.png>
-Package pdftex.def Info: reco_miss_N_fit.png used on input line 354.
+Package pdftex.def Info: reco_miss_N_fit.png used on input line 359.
 (pdftex.def)             Requested size: 320.69734pt x 193.47234pt.
-
-<acc_taglio_veto.png, id=85, 1197.72469pt x 580.41844pt>
+ [14 <./acc_taglio.png>]
+<acc_taglio_veto.png, id=90, 1197.72469pt x 580.41844pt>
 File: acc_taglio_veto.png Graphic file (type png)
 
 <use acc_taglio_veto.png>
-Package pdftex.def Info: acc_taglio_veto.png used on input line 371.
+Package pdftex.def Info: acc_taglio_veto.png used on input line 376.
 (pdftex.def)             Requested size: 359.32018pt x 174.12688pt.
- <acc_s2.png, id=86, 1596.96625pt x 773.89125pt>
+ <acc_s2.png, id=91, 1596.96625pt x 773.89125pt>
 File: acc_s2.png Graphic file (type png)
 
 <use acc_s2.png>
-Package pdftex.def Info: acc_s2.png used on input line 379.
+Package pdftex.def Info: acc_s2.png used on input line 384.
 (pdftex.def)             Requested size: 399.24059pt x 193.47234pt.
- <acc_sn.png, id=87, 1596.96625pt x 773.89125pt>
+ <acc_sn.png, id=92, 1596.96625pt x 773.89125pt>
 File: acc_sn.png Graphic file (type png)
 
 <use acc_sn.png>
-Package pdftex.def Info: acc_sn.png used on input line 387.
+Package pdftex.def Info: acc_sn.png used on input line 392.
 (pdftex.def)             Requested size: 399.24059pt x 193.47234pt.
- [14 <./acc_taglio.png>] [15 <./reco_miss_N_fit.png> <./acc_taglio_veto.png>] [
-16 <./acc_s2.png> <./acc_sn.png>] [17]
-<reco_x1_N.png, id=103, 1859.94875pt x 928.46875pt>
+ [15 <./reco_miss_N_fit.png>] [16 <./acc_taglio_veto.png> <./acc_s2.png>] <reco
+_x1_N.png, id=100, 1859.94875pt x 928.46875pt>
 File: reco_x1_N.png Graphic file (type png)
- <use reco_x1_N.png>
-Package pdftex.def Info: reco_x1_N.png used on input line 428.
-(pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 428--429
+<use reco_x1_N.png>
+Package pdftex.def Info: reco_x1_N.png used on input line 434.
+(pdftex.def)             Requested size: 446.39682pt x 222.83705pt.
+
+Overfull \hbox (2.81834pt too wide) in paragraph at lines 434--435
  [] 
  []
 
-<reco_y1_N.png, id=104, 1859.94875pt x 928.46875pt>
+[17 <./acc_sn.png>] [18 <./reco_x1_N.png>]
+<reco_y1_N.png, id=107, 1859.94875pt x 928.46875pt>
 File: reco_y1_N.png Graphic file (type png)
  <use reco_y1_N.png>
-Package pdftex.def Info: reco_y1_N.png used on input line 436.
-(pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
+Package pdftex.def Info: reco_y1_N.png used on input line 444.
+(pdftex.def)             Requested size: 371.98317pt x 185.69046pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 436--437
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<reco_z_N.png, id=105, 1859.94875pt x 928.46875pt>
+<reco_z_N.png, id=108, 1859.94875pt x 928.46875pt>
 File: reco_z_N.png Graphic file (type png)
  <use reco_z_N.png>
-Package pdftex.def Info: reco_z_N.png used on input line 444.
+Package pdftex.def Info: reco_z_N.png used on input line 452.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 444--445
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 452--453
  [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<reco_p_N.png, id=106, 1684.2925pt x 926.46124pt>
+<reco_p_N.png, id=109, 1684.2925pt x 926.46124pt>
 File: reco_p_N.png Graphic file (type png)
  <use reco_p_N.png>
-Package pdftex.def Info: reco_p_N.png used on input line 452.
+Package pdftex.def Info: reco_p_N.png used on input line 460.
 (pdftex.def)             Requested size: 421.0721pt x 231.61473pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_miss_N.png, id=107, 1859.94875pt x 928.46875pt>
+<reco_miss_N.png, id=110, 1859.94875pt x 928.46875pt>
 File: reco_miss_N.png Graphic file (type png)
  <use reco_miss_N.png>
-Package pdftex.def Info: reco_miss_N.png used on input line 460.
+Package pdftex.def Info: reco_miss_N.png used on input line 469.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 460--461
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 469--470
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18
-
- <./reco_x1_N.png>]
-
-LaTeX Warning: Text page 19 contains only floats.
-
-
-Overfull \vbox (2.25665pt too high) has occurred while \output is active []
-
-
-[19 <./reco_y1_N.png> <./reco_z_N.png>]
-
-LaTeX Warning: Text page 20 contains only floats.
-
-[20 <./reco_p_N.png> <./reco_miss_N.png>]
-<reco_x1_R.png, id=118, 1859.94875pt x 928.46875pt>
+<reco_x1_R.png, id=111, 1859.94875pt x 928.46875pt>
 File: reco_x1_R.png Graphic file (type png)
  <use reco_x1_R.png>
-Package pdftex.def Info: reco_x1_R.png used on input line 471.
-(pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
-
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 471--472
- [] 
- []
-
-<reco_y1_R.png, id=119, 1859.94875pt x 928.46875pt>
-File: reco_y1_R.png Graphic file (type png)
- <use reco_y1_R.png>
-Package pdftex.def Info: reco_y1_R.png used on input line 479.
+Package pdftex.def Info: reco_x1_R.png used on input line 479.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
 Overfull \hbox (21.40758pt too wide) in paragraph at lines 479--480
@@ -760,110 +724,119 @@ Overfull \hbox (21.40758pt too wide) in paragraph at lines 479--480
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_z_R.png, id=120, 1859.94875pt x 928.46875pt>
+<reco_y1_R.png, id=112, 1859.94875pt x 928.46875pt>
+File: reco_y1_R.png Graphic file (type png)
+ <use reco_y1_R.png>
+Package pdftex.def Info: reco_y1_R.png used on input line 488.
+(pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
+
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 488--489
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<reco_z_R.png, id=113, 1859.94875pt x 928.46875pt>
 File: reco_z_R.png Graphic file (type png)
  <use reco_z_R.png>
-Package pdftex.def Info: reco_z_R.png used on input line 487.
+Package pdftex.def Info: reco_z_R.png used on input line 496.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 487--488
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 496--497
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_p_R.png, id=121, 1859.94875pt x 928.46875pt>
+<reco_p_R.png, id=114, 1859.94875pt x 928.46875pt>
 File: reco_p_R.png Graphic file (type png)
  <use reco_p_R.png>
-Package pdftex.def Info: reco_p_R.png used on input line 495.
+Package pdftex.def Info: reco_p_R.png used on input line 505.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 495--496
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 505--506
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<reco_miss_R.png, id=122, 1859.94875pt x 928.46875pt>
+<reco_miss_R.png, id=115, 1859.94875pt x 928.46875pt>
 File: reco_miss_R.png Graphic file (type png)
  <use reco_miss_R.png>
-Package pdftex.def Info: reco_miss_R.png used on input line 503.
+Package pdftex.def Info: reco_miss_R.png used on input line 514.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 503--504
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 514--515
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21
-
- <./reco_x1_R.png>]
-
-LaTeX Warning: Text page 22 contains only floats.
-
-
-Overfull \vbox (2.25665pt too high) has occurred while \output is active []
-
-
-[22 <./reco_y1_R.png> <./reco_z_R.png>]
-
-LaTeX Warning: Text page 23 contains only floats.
-
-[23 <./reco_p_R.png> <./reco_miss_R.png>]
-<reco_miss_norm.png, id=132, 1859.94875pt x 928.46875pt>
+<reco_miss_norm.png, id=116, 1859.94875pt x 928.46875pt>
 File: reco_miss_norm.png Graphic file (type png)
 
 <use reco_miss_norm.png>
-Package pdftex.def Info: reco_miss_norm.png used on input line 514.
+Package pdftex.def Info: reco_miss_norm.png used on input line 524.
 (pdftex.def)             Requested size: 464.98605pt x 232.11662pt.
 
-Overfull \hbox (21.40758pt too wide) in paragraph at lines 514--516
+Overfull \hbox (21.40758pt too wide) in paragraph at lines 524--526
  [] 
  []
 
-[24
 
- <./reco_miss_norm.png>] [25] (./bibRareDecay.bib) [26] (./raredecay.aux) ) 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19
+
+ <./reco_y1_N.png> <./reco_z_N.png>]
+
+LaTeX Warning: Text page 20 contains only floats.
+
+[20 <./reco_p_N.png> <./reco_miss_N.png>] [21 <./reco_x1_R.png> <./reco_y1_R.pn
+g>] [22 <./reco_z_R.png> <./reco_p_R.png>] [23 <./reco_miss_R.png> <./reco_miss
+_norm.png>] [24
+
+] [25] (./bibRareDecay.bib) [26] (./raredecay.aux) ) 
 Here is how much of TeX's memory you used:
- 6369 strings out of 493093
- 96935 string characters out of 6134996
- 170534 words of memory out of 5000000
- 9677 multiletter control sequences out of 15000+600000
+ 6374 strings out of 493109
+ 96943 string characters out of 6135009
+ 170322 words of memory out of 5000000
+ 9663 multiletter control sequences out of 15000+600000
  23328 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,15n,40p,1127b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-</us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on raredecay.pdf (26 pages, 1437917 bytes).
+</usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msam10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb>
+Output written on raredecay.pdf (26 pages, 1438045 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams
